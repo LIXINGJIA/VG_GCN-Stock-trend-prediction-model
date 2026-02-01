@@ -1,7 +1,7 @@
 import tushare as ts
 import pandas as pd
 import os
-token='0aaadebd3d92f786adbe10d9dd7fbdb98ce41a9ef8a00ee66008a34a'
+token="your token" #tushare token
 pro = ts.pro_api(token)
 
 
@@ -230,3 +230,4 @@ if __name__ == '__main__':
     
 
     
+
